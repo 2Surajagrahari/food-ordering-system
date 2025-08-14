@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Order System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food Order System</h1>
+        
+        <div class="panels">
+            <!-- Menu & Order Panel -->
+            <div class="panel menu-panel">
+                <h2>Menu</h2>
+                <div id="menuItems" class="menu-items"></div>
+                
+                <h2>Place Order</h2>
+                <input type="text" id="customerName" placeholder="Your Name">
+                <div id="selectedItems"></div>
+                <div class="vip-toggle">
+                    <label>
+                        <input type="checkbox" id="isVIP">
+                        <span>VIP Customer</span>
+                    </label>
+                </div>
+                <button id="placeOrder">Place Order (Total: $<span id="totalAmount">0.00</span>)</button>
+                <div id="orderConfirmation"></div>
+            </div>
+
+            <!-- Kitchen Panel -->
+            <div class="panel kitchen-panel">
+                <h2>Kitchen</h2>
+                <div id="currentOrder"></div>
+                <button id="nextOrder">Prepare Next Order</button>
+                <button id="completeOrder">Mark as Completed</button>
+            </div>
+        </div>
+
+        <!-- Order Queue -->
+        <div class="queue-panel">
+            <h2>Order List</h2>
+            <div id="queueList"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
