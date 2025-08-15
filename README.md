@@ -31,7 +31,7 @@ A Java/Spark backend with vanilla JS frontend demonstrating a priority queue sys
 ### Installation
 1. **Clone the repository**
 2. 
-   git clone https://github.com/yourusername/food-ordering-system.git
+   git clone https://github.com/2Surajagrahari/food-ordering-system.git
    cd food-ordering-system
 
 3. Build the backend
