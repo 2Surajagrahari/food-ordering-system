@@ -1,6 +1,8 @@
 com\restaurant\FoodOrderAPI.class
+com\restaurant\OrderItem.class
+com\restaurant\FoodOrderAPI$Order.class
+com\restaurant\FoodOrderQueue.class
+com\restaurant\FoodOrderAPI$Item.class
 com\restaurant\Order.class
 com\restaurant\FoodOrderAPI$OrderRequest.class
-com\restaurant\OrderItem.class
-com\restaurant\FoodOrderQueue.class
 com\restaurant\Main.class
