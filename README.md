@@ -54,23 +54,36 @@ A Java/Spark backend with vanilla JS frontend demonstrating a priority queue sys
 🏗️ Project Structure
 
 food-ordering-system/
+
 ├── backend/
+
 │   ├── src/main/java/com/restaurant/
+
 │   │   ├── Order.java          # Order entity
+
 │   │   ├── FoodOrderQueue.java # Priority Queue
+
 │   │   ├── FoodOrderAPI.java   # REST endpoints
+
 │   │   └── Main.java           # Entry point
+
 │   └── pom.xml                 # Maven config
+
 └── frontend/
-    ├── index.html              # Main UI
+
+   ├── index.html              # Main UI
     ├── styles.css              # Styling
     └── app.js                  # Frontend logic
 
 📡 API Endpoints
 Endpoint	Method	Description
+
 /menu	      GET	     Get available menu items
+
 /orders	    POST	  Submit new order
+
 /queue	    GET	    View current order queue
+
 /next	      GET	    Get next order to process
 
 
