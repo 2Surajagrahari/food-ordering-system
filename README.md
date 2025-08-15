@@ -24,28 +24,32 @@ A Java/Spark backend with vanilla JS frontend demonstrating a priority queue sys
 ## 🚀 Setup Guide
 
 ### Prerequisites
+
 - JDK 11+
 - Maven 3.6+
 - Modern browser (Chrome/Firefox)
 
 ### Installation
 1. **Clone the repository**
-2. 
+   
    git clone https://github.com/2Surajagrahari/food-ordering-system.git
    cd food-ordering-system
 
-3. Build the backend
+### Build the backend
 
    cd backend
    mvn clean package
 
-4. Run the system
+### Run the system
+   
    -> Start backend:
+   
    java -jar target/food-ordering-system-1.0-SNAPSHOT.jar
+   
    -> Open frontend:
 
-    Direct file access: frontend/index.html
-    Or with Live Server in VS Code
+  Direct file access: frontend/index.html
+  Or with Live Server in VS Code
 
 🏗️ Project Structure
 
