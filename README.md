@@ -76,7 +76,8 @@ food-ordering-system/
     └── app.js                  # Frontend logic
 
 📡 API Endpoints
-Endpoint	Method	Description
+
+Endpoint	 Method	    Description
 
 /menu	      GET	     Get available menu items
 
